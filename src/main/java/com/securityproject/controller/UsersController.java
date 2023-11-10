@@ -16,10 +16,7 @@ public class UsersController {
         return "login_page";
     }
 
-    @GetMapping("/")
-    public String getIndexPage() {
-        return "index";
-    }
+
 
 
 }
